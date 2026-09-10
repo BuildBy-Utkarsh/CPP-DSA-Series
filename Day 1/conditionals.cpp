@@ -34,21 +34,38 @@ int main(){
     //     cout << "B is greater" << endl;
     // }
 
-    int a  ;
-    cout << "enter your number" << endl;
-    cin >> a;
+    // int a  ;
+    // cout << "enter your number" << endl;
+    // cin >> a;
     
     
-    if (a>0)
-    {
-        cout << a << " is positive " << endl;
+    // if (a>0)
+    // {
+    //     cout << a << " is positive " << endl;
+    // }
+    // else if(a<0){
+    //     cout <<  a << " is negative" << endl;
+    // }
+    // else{
+    //     cout << a <<" is 0" << endl;
+    // }
+
+    char ch ;
+    cout << "enter what you like" << endl;
+    cin >> ch;
+
+    if (ch >= 'a' && ch <= 'z'){
+        cout << "this is lowercase" << endl;
     }
-    else if(a<0){
-        cout <<  a << " is negative" << endl;
+    else if(ch >= 'A' && ch <= 'Z' ){
+        cout << "this is uppercase" << endl;
+    }
+    else if(ch >= '0' && ch<= '9'){
+        cout << "this is numeric" << endl;
     }
     else{
-        cout << a <<" is 0" << endl;
+        cout << "invalid input" << endl;
     }
-    
+        
 
 }
