@@ -37,17 +37,35 @@ int main(){
 
     //pattern 3
 
+    // int n;
+    // cout << "provide input : ";
+    // cin>>n;
+    // int row =1;
+    // while(row<=n){
+    //     int col = 1;
+    //     while(col<=row){
+    //         cout << row;
+    //         col++;
+    //     }
+    //     cout << endl;
+    //     row++;
+    // }
+
+    //pattern 4
+
     int n;
     cout << "provide input : ";
     cin>>n;
     int row =1;
+    int count=1;
     while(row<=n){
-        int col = 1;
+        int col =1;
         while(col<=row){
-            cout << row;
+            cout << count <<" ";
             col++;
+            count++;
         }
-        cout << endl;
+        cout<<endl;
         row++;
     }
 
