@@ -10,7 +10,7 @@ int main() {
     while (row <= n) {
 
         // spaces
-        int space = n - 1;
+        int space = n - row;
         while (space > 0) {
             cout << " ";
             space--;
