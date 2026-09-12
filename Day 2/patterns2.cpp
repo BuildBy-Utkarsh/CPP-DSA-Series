@@ -122,21 +122,49 @@ int main(){
 
     //pattern 8
 
-      int n;
-     cin >>n;
-     int row =1;
-     while(row <=n){
-         int col =1;
+    //   int n;
+    //  cin >>n;
+    //  int row =1;
+    //  while(row <=n){
+    //      int col =1;
         
-            while(col<=3){
-            char ch = 'A'+ col -1;
-            cout << ch <<" ";
-            col++;
+    //         while(col<=3){
+    //         char ch = 'A'+ col -1;
+    //         cout << ch <<" ";
+    //         col++;
+    //     }
+    //      cout <<endl;
+    //      row++;
+    //  }
+
+        //pattern 9
+
+        // int n;
+        // cin >>n;
+        // int row = 1;
+        // while(row<=n){
+        //     int col = 1;
+        //     while(col<=n){
+        //         cout << col;
+        //         col++;
+        //     }
+        //     cout<<endl;
+        //     row++;
+        // }
+
+        //pattern 10
+
+        int n;
+        cin >>n;
+        int row = 1;
+        while(row<=n){
+            int col = 1;
+            while(col<=n){
+                cout << n-col+1;
+                col++;
+            }
+            cout<<endl;
+            row++;
         }
-         cout <<endl;
-         row++;
-     }
-
-
     
 }
