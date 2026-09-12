@@ -6,7 +6,7 @@ int main() {
     cin >> n;
 
     int row = 1;
-
+    
     while (row <= n) {
 
         // spaces
@@ -18,9 +18,10 @@ int main() {
 
         // stars
         int col = 1;
-        while (col <=row ) {
-            cout << row;
+        while (col <=row  ) {
+            cout << row+col-1 ;
             col++;
+            
         }
 
         cout << endl;
