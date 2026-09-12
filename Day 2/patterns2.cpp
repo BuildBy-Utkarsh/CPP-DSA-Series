@@ -154,17 +154,53 @@ int main(){
 
         //pattern 10
 
-        int n;
+        // int n;
+        // cin >>n;
+        // int row = 1;
+        // while(row<=n){
+        //     int col = 1;
+        //     while(col<=n){
+        //         cout << n-col+1;
+        //         col++;
+        //     }
+        //     cout<<endl;
+        //     row++;
+        // }
+
+        //pattern 11
+
+        
+        // int n;
+        // cin >>n;
+        // int row = 1;
+        // while(row<=n){
+        //     int col = 1;
+        //     while(col<=row){
+        //         cout <<"* ";
+        //         col++;
+        //     }
+        //     cout<<endl;
+        //     row++;
+        // }
+
+
+        //pattern 13
+
+           int n;
+           cout<< "provide input : ";
         cin >>n;
         int row = 1;
+        int count = 1;
         while(row<=n){
             int col = 1;
-            while(col<=n){
-                cout << n-col+1;
+            while(col<=row){
+                cout <<count<<" ";
+                count++;
                 col++;
             }
             cout<<endl;
             row++;
         }
+    
     
 }
