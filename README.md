@@ -59,7 +59,7 @@ Each day's folder is self-contained — problem, solution, and notes — so anyo
 
 | Day | Date | Topic | Problem | Status | Notes |
 |-----|------|-------|---------|--------|-------|
-| 01  |      | Arrays | | ⬜ In Progress | |
+| 01  |      | Arrays | | ⏳ In Progress | |
 | 02  |      | Arrays | | ⬜ Pending | |
 | 03  |      | Strings | | ⬜ Pending | |
 | ... | | | | | |
