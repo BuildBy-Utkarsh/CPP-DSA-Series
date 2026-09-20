@@ -1,5 +1,6 @@
 {
-    "C_Cpp.default.compilerPath": "C:/MinGW/bin/g++.exe",
-    "code-runner.runInTerminal": false,
-    "code-runner.showExecutionMessage": false
+  "C_Cpp.default.compilerPath": "C:/MinGW/bin/g++.exe",
+  "code-runner.runInTerminal": false,
+  "code-runner.showExecutionMessage": false,
+  "C_Cpp.errorSquiggles": "disabled"
 }
